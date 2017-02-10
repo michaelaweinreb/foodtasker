@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'social_django',
     'rest_framework_social_oauth2',
+    'bootstrap3'
 ]
 
 MIDDLEWARE = [
@@ -144,7 +145,7 @@ AUTHENTICATION_BACKENDS = (
 
 # Facebook configuration
 SOCIAL_AUTH_FACEBOOK_KEY = '1749962691696422'
-SOCIAL_AUTH_FACEBOOK_SECRET = '7ae1a95958b442fd63c865f71f520c9b'
+SOCIAL_AUTH_FACEBOOK_SECRET = '3636af3544fc49342bc4eb5d71b050a5'
 
 # Define SOCIAL_AUTH_FACEBOOK_SCOPE to get extra permissions from facebook. Email is not sent by default, to get it, you must request the email permission:
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
